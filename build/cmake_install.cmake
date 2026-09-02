@@ -1,4 +1,4 @@
-# Install script for directory: F:/study/Project/13_esp32/00/00_esp32
+# Install script for directory: F:/study/Project/13_esp32/00/esp32_test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("F:/study/Project/13_esp32/00/00_esp32/build/esp-idf/cmake_install.cmake")
+  include("F:/study/Project/13_esp32/00/esp32_test/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "F:/study/Project/13_esp32/00/00_esp32/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "F:/study/Project/13_esp32/00/esp32_test/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

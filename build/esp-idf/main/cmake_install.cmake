@@ -1,4 +1,4 @@
-# Install script for directory: F:/study/Project/13_esp32/00/00_esp32/main
+# Install script for directory: F:/study/Project/13_esp32/00/esp32_test/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

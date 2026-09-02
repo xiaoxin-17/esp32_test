@@ -10,18 +10,18 @@ if(NOT EXISTS "E:/SoftAppE/Espressif/frameworks/esp-idf-v5.4/components/bootload
   file(MAKE_DIRECTORY "E:/SoftAppE/Espressif/frameworks/esp-idf-v5.4/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "F:/study/Project/13_esp32/00/00_esp32/build/bootloader"
-  "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix"
-  "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix/tmp"
-  "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix/src/bootloader-stamp"
-  "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix/src"
-  "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/study/Project/13_esp32/00/esp32_test/build/bootloader"
+  "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix"
+  "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix/tmp"
+  "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix/src/bootloader-stamp"
+  "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix/src"
+  "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "F:/study/Project/13_esp32/00/00_esp32/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "F:/study/Project/13_esp32/00/esp32_test/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()

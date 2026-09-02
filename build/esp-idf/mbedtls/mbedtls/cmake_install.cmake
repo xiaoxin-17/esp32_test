@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("F:/study/Project/13_esp32/00/00_esp32/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("F:/study/Project/13_esp32/00/00_esp32/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("F:/study/Project/13_esp32/00/00_esp32/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
-  include("F:/study/Project/13_esp32/00/00_esp32/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
+  include("F:/study/Project/13_esp32/00/esp32_test/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("F:/study/Project/13_esp32/00/esp32_test/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("F:/study/Project/13_esp32/00/esp32_test/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("F:/study/Project/13_esp32/00/esp32_test/build/esp-idf/mbedtls/mbedtls/pkgconfig/cmake_install.cmake")
 
 endif()
 
